@@ -90,7 +90,7 @@ export default function Planets() {
         <Link href="/">
           <Button variant="ghost" className="text-sky-300 hover:text-white hover:bg-sky-900/30 -ml-4 mb-8">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            back to home
+            Back to home
           </Button>
         </Link>
         

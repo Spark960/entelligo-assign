@@ -13,7 +13,7 @@ export default function Home() {
       {/* hero section */}
       <section className="relative z-10 flex min-h-screen w-full flex-col items-center justify-center text-center px-6 pt-20">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-linear-to-b from-white via-sky-100 to-sky-400 mb-6 drop-shadow-sm">
-          explore the <br className="hidden sm:block" /> solar system
+          Explore the <br className="hidden sm:block" /> solar system
         </h1>
         
         <p className="text-lg md:text-xl text-sky-100/80 max-w-2xl mb-10 font-medium leading-relaxed">
@@ -23,14 +23,14 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <Link href="/planets">
             <Button size="lg" className="h-14 px-8 text-base bg-white text-sky-900 hover:bg-gray-200 rounded-full font-bold w-full sm:w-auto shadow-[0_0_20px_rgba(14,165,233,0.4)] transition-all hover:scale-105">
-              start learning
+              Start learning
               <Rocket className="ml-2 h-5 w-5" />
             </Button>
           </Link>
           
           <Link href="/about">
             <Button size="lg" variant="outline" className="h-14 px-8 text-base border-sky-500/30 text-white bg-sky-950/30 backdrop-blur-md hover:bg-sky-900/50 rounded-full font-bold w-full sm:w-auto transition-all hover:scale-105">
-              view planets
+              About
               <Sparkles className="ml-2 h-5 w-5 text-sky-300" />
             </Button>
           </Link>
@@ -40,7 +40,7 @@ export default function Home() {
       {/* solar system overview section */}
       <section className="relative z-10 flex flex-col items-center w-full px-6 py-32 mt-10">
         <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-sky-200 to-white mb-6 text-center">
-          what is in our solar system?
+          What is in our solar system?
         </h2>
         <p className="text-sky-100/60 mb-16 text-center max-w-2xl text-lg">
           our solar system consists of our star, the sun, and everything bound to it by gravity. here is a quick look at what makes it up.
@@ -50,11 +50,11 @@ export default function Home() {
           <Card className="group bg-sky-950/10 border-sky-500/20 text-white backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-sky-900/20 hover:border-sky-400/50 hover:shadow-[0_0_30px_rgba(14,165,233,0.15)] overflow-hidden relative">
             <div className="absolute inset-0 bg-linear-to-br from-sky-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <CardHeader>
-              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">the sun</CardTitle>
+              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">The sun</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sky-100/70 text-base leading-relaxed">
-                the star at the center of our solar system. it contains 99.8% of the mass in the entire solar system.
+                The star at the center of our solar system. It contains 99.8% of the mass in the entire solar system.
               </CardDescription>
             </CardContent>
           </Card>
@@ -66,7 +66,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sky-100/70 text-base leading-relaxed">
-                there are eight planets that orbit the sun. four are rocky inner planets and four are massive gas giants.
+                There are eight planets that orbit the sun. Four are rocky inner planets and four are massive gas giants.
               </CardDescription>
             </CardContent>
           </Card>
@@ -74,11 +74,11 @@ export default function Home() {
           <Card className="group bg-sky-950/10 border-sky-500/20 text-white backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-sky-900/20 hover:border-sky-400/50 hover:shadow-[0_0_30px_rgba(14,165,233,0.15)] overflow-hidden relative">
             <div className="absolute inset-0 bg-linear-to-br from-sky-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <CardHeader>
-              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">moons</CardTitle>
+              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">Moons</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sky-100/70 text-base leading-relaxed">
-                also known as natural satellites. there are over 200 known moons orbiting the planets in our solar system.
+                Also known as natural satellites. There are over 200 known moons orbiting the planets in our solar system.
               </CardDescription>
             </CardContent>
           </Card>
@@ -86,11 +86,11 @@ export default function Home() {
           <Card className="group bg-sky-950/10 border-sky-500/20 text-white backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-sky-900/20 hover:border-sky-400/50 hover:shadow-[0_0_30px_rgba(14,165,233,0.15)] overflow-hidden relative">
             <div className="absolute inset-0 bg-linear-to-br from-sky-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <CardHeader>
-              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">asteroids</CardTitle>
+              <CardTitle className="text-2xl text-sky-100 font-bold tracking-wide">Asteroids</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-sky-100/70 text-base leading-relaxed">
-                rocky, airless remnants left over from the early formation of our solar system billions of years ago.
+                Rocky, airless remnants left over from the early formation of our solar system billions of years ago.
               </CardDescription>
             </CardContent>
           </Card>
